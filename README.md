@@ -1,4 +1,4 @@
-# qizzler_app
+# quizzler_app
 A simple Flutter quiz app that tests your general knowledge with true/false questions.
 
 # Overview
