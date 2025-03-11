@@ -1,16 +1,24 @@
 # qizzler_app
+A simple Flutter quiz app that tests your general knowledge with true/false questions.
 
-A new Flutter project.
+# Overview
+Quizzler is a true/false quiz application built with Flutter. The app presents a series of interesting trivia questions that users can answer by tapping either the "True" or "False" button. After each answer, the app provides immediate feedback by showing a green check mark for correct answers or a red X for incorrect ones.
 
-## Getting Started
+# Features
+- Clean, minimalist UI with a dark theme
+- True/False questions on various trivia topics
+- Visual feedback for correct and incorrect answers
+- Score tracking at the bottom of the screen
+- Quiz completion notification
+- Ability to restart the quiz after completion
 
-This project is a starting point for a Flutter application.
+# Project Structure
+The app is organized into three main files:
 
-A few resources to get you started if this is your first Flutter project:
+1. **main.dart**: Contains the UI components and main application logic
+2. **question.dart**: Defines the Question model class
+3. **quiz_brain.dart**: Manages the quiz state and question bank
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Dependencies
+- Flutter SDK
+- rflutter_alert: ^2.0.4 (for displaying the quiz completion alert)
